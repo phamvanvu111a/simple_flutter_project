@@ -125,7 +125,7 @@ void main(List<String> args) async {
   // Để chạy trong các container, chúng ta sẽ sử dụng biến môi trường PORT.
   // Nếu biến môi trường không được thiết lập nó sẽ sử dụng giá trị từ biến
   // môi trường này; nếu không, nó sẽ sử dụng giá trị mặc định là 8080.
-  final port = int.parse(Platform.environment['PORT'] ?? '8081');
+  final port = int.parse(Platform.environment['PORT'] ?? '8082');
 
   // Khởi chạy server tại địa chỉ và cổng chỉ định
   final server = await serve(handler, ip, port);
