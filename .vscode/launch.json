@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "backend",
+            "name": "backend (bin\\server.dart)",
             "cwd": "backend",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "program": "bin\\server.dart"
         },
         {
             "name": "frontend web",
@@ -21,6 +22,7 @@
                 "--web-port",
                 "8081"
             ]
-        }
+        },
+   
     ]
 }
